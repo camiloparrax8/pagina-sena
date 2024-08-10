@@ -3,9 +3,13 @@ import React, { useState } from 'react';
 import { EffectFade, Scrollbar, A11y, Autoplay, } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import ModalVideo from 'react-modal-video';
+import { getLanguage, getTranslation } from "../../../utils/i18n";
+
 
 // Import Swiper styles
 import 'swiper/css/bundle';
+
+const language = getLanguage();
 
 const HeroSliderThree = () => {
 
@@ -16,23 +20,23 @@ const HeroSliderThree = () => {
         {
             id: 1,
             sliderBg: '/assets/img/banner/banner-3-1.jpg',
-            sliderSubtitle: 'since from 2000',
-            sliderTitle: 'Fino en sabor y aroma',
-            sliderbtn: 'Historia',
+            sliderSubtitle: getTranslation(language, 'home.banner.item-1.slider-subtitle'),
+            sliderTitle: getTranslation(language, 'home.banner.item-1.slider-title'),
+            sliderbtn: getTranslation(language, 'home.banner.item-1.slider-btn'),
         },
         {
             id: 2,
             sliderBg: '/assets/img/banner/banner-4-1-dark.jpg',
-            sliderSubtitle: 'since from 2000',
-            sliderTitle: 'Alimento de los Dioses',
-            sliderbtn: 'Historia',
+            sliderSubtitle: getTranslation(language, 'home.banner.item-2.slider-subtitle'),
+            sliderTitle: getTranslation(language, 'home.banner.item-2.slider-title'),
+            sliderbtn: getTranslation(language, 'home.banner.item-2.slider-btn'),
         },
         {
             id: 3,
             sliderBg: '/assets/img/banner/banner-1-1-dark.jpg',
-            sliderSubtitle: 'since from 2000',
-            sliderTitle: 'alimento de oportunidades',
-            sliderbtn: 'Historia',
+            sliderSubtitle: getTranslation(language, 'home.banner.item-3.slider-subtitle'),
+            sliderTitle: getTranslation(language, 'home.banner.item-3.slider-title'),
+            sliderbtn: getTranslation(language, 'home.banner.item-3.slider-btn'),
         }
     ];
 
@@ -59,7 +63,7 @@ const HeroSliderThree = () => {
                                         <div className="single-banner single-banner-3 banner-970 d-flex align-items-center pos-rel">
                                             <div className="banner-bg banner-bg3 banner-bg3-1" style={{ backgroundImage: `url(${item.sliderBg})` }}></div>
                                             <div className="container pos-rel">
-                                            <ModalVideo channel='youtube' isOpen={isOpen} videoId='vWLcyFtni6U' onClose={() => { openVideoModal(); }} />
+                                            <ModalVideo channel='youtube' isOpen={isOpen} videoId='G1xB_Ek022g' onClose={() => { openVideoModal(); }} />
                                                 <div className="row justify-content-center">
                                                     <div className="col-lg-8 col-md-12">
                                                         <div className="banner-content banner-content3 banner-content3-1 banner-plant-shape">

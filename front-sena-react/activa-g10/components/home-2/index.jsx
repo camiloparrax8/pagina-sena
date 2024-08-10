@@ -17,7 +17,7 @@ const index = () => {
   return (
     <main>
       <HeaderTwo />
-      <HeroSliderTwo />
+      {/* <HeroSliderTwo /> */}
       <AboutSectionTwo />
       <BrandSliderTwo />
       <ServiceSectionTwo />

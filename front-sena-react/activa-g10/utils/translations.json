@@ -60,6 +60,86 @@
                 "feature-two": "Tierra Fértil",
                 "feature-three": "Tierra Amable"
             }
+        },
+        "home": {
+            "banner": {
+                "item-1": {
+                    "slider-subtitle": "Cacao Especial",
+                    "slider-title": "Fino en sabor y aroma",
+                    "slider-btn": "Nuestra Historia"
+                },
+                "item-2": {
+                    "slider-subtitle": "Alimento Nutritivo",
+                    "slider-title": "Alimento de los Dioses",
+                    "slider-btn": "Nuestra Historia"
+                },
+                "item-3": {
+                    "slider-subtitle": "Ventas Importantes",
+                    "slider-title": "alimento de oportunidades",
+                    "slider-btn": "Nuestra Historia"
+                }
+            },
+            "service-section": {
+                "item-1": {
+                    "title": "Siembra y Cosecha de Cacao",
+                    "badge": "",
+                    "description": "La siembra y cosecha de cacao requieren terrenos fértiles, plantación cuidadosa y recolección en el punto óptimo.",
+                    "button": "Ver detalles"
+                },
+                "item-2": {
+                    "title": "Transformacion del cacao",
+                    "badge": "",
+                    "description": "La transformación del cacao incluye tostión, molienda y refinado para obtener un producto final de alta calidad ",
+                    "button": "Ver detalles"
+                },
+                "item-3": {
+                    "title": "comercialización",
+                    "badge": "",
+                    "description": "La comercialización del cacao abarca su distribución, venta y promoción para llegar al mercado final.",
+                    "button": "Ver detalles"
+                }
+            },
+            "Foundation-section-four": {
+                "section-subtitle": "Desde 2009",
+                "section-main-title": "Activa G10 ofrece un servicio integral",
+                "section-description": "Ofrecemos un cacao fino de sabor y aroma excepcionales, gracias al cuidadoso manejo de los productores en los procesos de cosecha, asegurando frutos fisiológicamente maduros. Además, se realiza una rigurosa limpieza y clasificación del grano, junto con un proceso óptimo de fermentación y secado, logrando un grado de humedad relativa del 7%",
+                "designation": "Fundador",
+                "founder-name": "Juan Pardo"
+            },
+            "Feature-section-four": {
+                "section-subtitle": "Con Nuestros Aliados",
+                "section-main-title": " potenciamos el crecimiento y la innovación de activag10."
+            },
+            "portfolio": {
+                "general": {
+                    "section-subtitle": "Conoce nuestras mejores imagenes",
+                    "section-main-title": "Galeria de imagenes"
+                },
+                "item-1": {
+                    "portfolio-title": "Siembra"
+                },
+                "item-2": {
+                    "portfolio-title": "Cosecha"
+                },
+                "item-3": {
+                    "portfolio-title": "Fermentación"
+                },
+                "item-4": {
+                    "portfolio-title": "Secado"
+                },
+                "item-5": {
+                    "portfolio-title": "Transformación"
+                },
+                "item-6": {
+                    "portfolio-title": "Productos"
+                }
+            },
+            "footer":{
+                "footer-text": "celular",
+                "footer-btn-text":"Contactanos",
+                "footer-social-text":"Redes Sociales" 
+
+            }
         }
     },
     "en": {
@@ -114,10 +194,9 @@
                     "description": "Familias desplazadas por la violencia"
                 }
             }
-
         }
     },
-    "em" : {
+    "em": {
         "language": {
             "es": "Español",
             "en": "English",
@@ -169,7 +248,6 @@
                     "description": "Familias desplazadas por la violencia"
                 }
             }
-
         }
     }
 }
